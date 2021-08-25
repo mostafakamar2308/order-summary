@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+::root{
+    --main-color:rgb(224, 232, 255);
+    --second-main-color:rgb(56, 41, 224);
+}
+body{
+    height: 100vh;
+}
+.container{
+    height:90vh;
+    width: 80%;
+    margin:1em auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.order-summary{
+    min-height: 300px;
+    width: 450px;
+    background-color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 20px;
+}
+.order-summary img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.name{
+    font-size: 20px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-top: 1.5em;
+    margin-bottom:.75em ;
+}
+.name-p{
+    width: 300px;
+    margin: 0 auto;
+}
+p{
+    color: hsl(224, 23%, 55%);
+}
+.plan{
+    background-color: #f5f7ff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    margin:1rem 3rem ;
+    border-radius: 15px;
+}
+h5{
+color: hsl(223, 47%, 23%)
+}
+.img{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plan a{
+    color:hsl(245, 75%, 52%);
+}
+.confirm{
+    padding: 1em;
+    font-weight: bold;
+    width: 70%;
+    margin: .5rem 3rem ;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 .5rem 20px hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+.cancel{
+    text-decoration: none;
+    color:hsl(224, 23%, 55%);
+    font-weight: bold;
+    display: block;
+    margin: 1rem 0 2rem 0;
+}
